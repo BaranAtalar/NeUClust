@@ -19,8 +19,8 @@ Use algorithm_dataset.py where algorithm = {neuclust, cnucb, linucb, NeuralMAB, 
 * --seed: random seed for shuffle
 * --nu: nu for control variance
 * --lambda: lambda for regularization
-* --style: ucb or ts
+* --style: ucb or ts (our implementations are for ucb)
 * --hidden: base arm network hidden size
 
 # Example Run
-python3 neuclust_movielens.py --size 1000 --super_arm_size 5 -hidden 20 --lambda 1 --nu 1 
+python3 neuclust_movielens.py --size 1000 --super_arm_size 5 -hidden 20 --lambda 1 --nu 1 --style ucb
