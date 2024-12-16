@@ -23,4 +23,4 @@ Use algorithm_dataset.py where algorithm = {neuclust, cnucb, linucb, NeuralMAB, 
 * --hidden: base arm network hidden size
 
 # Example Run
-python3 neuclust_movielens.py --super_arm_size 5 --lambda 1 --nu 1 -size 1000
+python3 neuclust_movielens.py --size 1000 --super_arm_size 5 -hidden 20 --lambda 1 --nu 1 
