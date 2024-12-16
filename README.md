@@ -15,11 +15,11 @@ Use algorithm_dataset.py where algorithm = {neuclust, cnucb, linucb, NeuralMAB, 
 # Command Line Arguments
 * --size: bandit algorithm time horizon
 * --super_arm_size: number of arms in super arm
-* --dataset: datasets
 * --shuffle: to shuffle the dataset or not
 * --seed: random seed for shuffle
 * --nu: nu for control variance
 * --lambda: lambda for regularization
+* --style: ucb or ts
 * --hidden: base arm network hidden size
 
 # Example Run
