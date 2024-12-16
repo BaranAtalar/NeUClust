@@ -1,5 +1,5 @@
 # NeUClust
-This repository contains our Pytorch implementation of NeUClust in the paper Neural Combinatorial Clustered Bandits for Recommendation Systems (accepted by AAAI 2025). To implement CN-UCB we make use of [NeuralUCB](https://github.com/uclaml/NeuralUCB), and for CC-MAB we use [ACC-UCB](https://github.com/Bilkent-CYBORG/ACC-UCB).
+This repository contains our Pytorch implementation of NeUClust in the paper Neural Combinatorial Clustered Bandits for Recommendation Systems (accepted by AAAI 2025) as well as the implementation of the other baselines. To implement CN-UCB we make use of [NeuralUCB](https://github.com/uclaml/NeuralUCB), and for CC-MAB we use [ACC-UCB](https://github.com/Bilkent-CYBORG/ACC-UCB).
 
 # Prerequisites
 * Pytorch and Cuda
